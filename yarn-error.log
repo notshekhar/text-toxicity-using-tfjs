@@ -1,0 +1,37 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add @tensorflow/tfjs
+
+PATH: 
+  C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Boxstarter;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\ProgramData\chocolatey\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Users\notshekhar\AppData\Local\Microsoft\WindowsApps;C:\Users\notshekhar\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Microsoft VS Code\bin;C:\Users\notshekhar\AppData\Roaming\npm;C:\Users\notshekhar\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  10.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com registry.yarnpkg.com:443
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)
+
+npm manifest: 
+  {
+    "name": "speech-commands-using-tfjs",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
